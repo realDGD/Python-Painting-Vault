@@ -45,6 +45,20 @@
       ],
       "description": "这是一个**上下紧凑堆叠的双子图（Subplots）**，两个面板均为**分组柱状图（Grouped Bar Chart）**。其核心视觉特征包括：柱体扁平且无描边、**不同组别之间使用垂直虚线（xline）进行分隔**、隐藏坐标轴外侧刻度线、**在底部全局共享一个单行横向排列的图例**，且每个子图左上角带有独立的文本标签。",
       "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Circular Clustered Heatmap : Radial Clustered Heatmap",
+      "type": "Circular Clustered Heatmap : Radial Clustered Heatmap",
+      "keywords": [
+        "环形热图",
+        "极坐标热图",
+        "环状相关性图",
+        "circular heatmap",
+        "radial heatmap",
+        "annular heatmap."
+      ],
+      "description": "这是一个**基于极坐标系（圆形布局）的复合聚类热图**。**主体视觉**是一个圆环状的矩阵热图，由按角度和半径划分的扇形网格组成，通过颜色映射数值。**内部视觉（圆心侧）**嵌套了一个向外辐射的极坐标层次聚类树状图（Radial Dendrogram）；**外缘或侧边**带有另一个树状图，两者的分支节点与环形热图的周向和径向严格对齐。**全局特征**：外围带有沿径向放射状旋转的文本标签，且完全隐藏了直角坐标轴，图表侧边配有一个独立的连续型颜色条（Colorbar）。",
+      "code_path": "Python/main.py"
     }
   ]
 }
