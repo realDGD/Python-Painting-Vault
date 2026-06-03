@@ -15,6 +15,23 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Combined Grouped Heatmap and Differential Bubble Chart",
+      "type": "Combined Grouped Heatmap and Differential Bubble Chart",
+      "keywords": [
+        "组合图表 (composite chart)",
+        "分组热图 (grouped heatmap)",
+        "一维气泡图 (1D bubble chart).",
+        "左右并排双坐标系 (side-by-side subplots)",
+        "垂直对齐 (vertical alignment)",
+        "共享Y轴标签 (shared Y-axis).",
+        "顶部类别注释色块 (top annotation bar)",
+        "缺失值交叉线标记 (missing value cross marks / NaN 'X' marks)",
+        "气泡大小与颜色双重映射 (bubble size and color mapping)."
+      ],
+      "description": "这是一个左右并排布局的**复合型数据可视化图表**。**左侧主体**是一个带有顶部类别分组指示色块的矩阵热图（Heatmap），单元格具有灰色描边，且针对缺失值（NaN）有特殊的视觉设计（绘制交叉线 'X' 标记），其底部配有一个水平的连续型颜色条。**右侧主体**是一个沿垂直方向与热图行严格对齐的一维气泡图（Bubble Chart），所有气泡在X轴居中，气泡的面积大小和颜色深浅分别独立映射两个不同的连续型变量。图表最右侧外部悬浮着独立的**气泡大小图例**和**垂直连续型颜色条**。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Segmented Circular Heatmap : Grouped Annular Heatmap",
       "type": "Segmented Circular Heatmap : Grouped Annular Heatmap",
       "keywords": [
@@ -27,7 +44,11 @@
         "同心圆环 (concentric rings)",
         "扇形分区 (sector partitioning)",
         "物理间隙 (angular gaps)",
-        "中心留白 (center hole)."
+        "中心留白 (center hole).",
+        "数值文本叠加 (text overlay)",
+        "阈值显著性高亮 (threshold significance highlighting/black bounding box)",
+        "外缘分类弧带 (outer category arcs)",
+        "径向旋转文本 (radial text rotation)."
       ],
       "description": "这是一个**基于极坐标的多分组分段环形热图 (Segmented Circular Heatmap)**。 **主体视觉**是由若干个带物理间隙的扇形区块组成的同心圆环阵列，单元格的颜色映射矩阵数值，且格内叠加显示具体数字。**阈值逻辑**：达到设定阈值（如绝对值>0.35）的单元格带有粗黑边框作为显著性高亮。 **外围与中心视觉**：图表中心留白放置全局标题；每个扇形区块的内外缘分别对齐径向旋转的行列变量标签；图表最外围由分段弧形带包裹，用于标识各个扇形区块的大类名称。底部配有独立的水平连续型颜色条。",
       "code_path": "Python/main.py"
@@ -47,7 +68,14 @@
         "双边结构",
         "circular layout",
         "bipartite layout",
-        "radial design."
+        "radial design.",
+        "贝塞尔曲线",
+        "弦带",
+        "半透明填充",
+        "外围弧形色块",
+        "Bezier curves",
+        "translucent ribbons",
+        "peripheral arcs."
       ],
       "description": "这是一个**基于圆形布局的双边弦图 (Bipartite Chord Diagram)**。图表完全去除了直角坐标系（隐藏了X/Y轴和背景边框）。**外围视觉**由上下对齐的圆弧形分组色块组成，带有向外辐射的径向文本标签和可选的外缘刻度线。**内部视觉**通过宽度不等的、半透明的平滑贝塞尔曲线（Bezier curves）将上下两组弧形块交叉连接，连线的起始和终止宽度严格映射两组节点之间的权重或流量大小。",
       "code_path": "Python/main.py"
@@ -59,7 +87,22 @@
         "分组柱状图",
         "簇状柱形图",
         "grouped bar chart",
-        "clustered bar chart"
+        "clustered bar chart",
+        "双子图",
+        "上下堆叠",
+        "紧凑排版",
+        "共享图例",
+        "subplots",
+        "stacked vertically",
+        "compact layout",
+        "shared legend",
+        "无边框柱体",
+        "垂直分隔虚线",
+        "隐藏刻度",
+        "内部文本标签",
+        "flat styling",
+        "vertical dashed lines",
+        "hidden ticks"
       ],
       "description": "这是一个**上下紧凑堆叠的双子图（Subplots）**，两个面板均为**分组柱状图（Grouped Bar Chart）**。其核心视觉特征包括：柱体扁平且无描边、**不同组别之间使用垂直虚线（xline）进行分隔**、隐藏坐标轴外侧刻度线、**在底部全局共享一个单行横向排列的图例**，且每个子图左上角带有独立的文本标签。",
       "code_path": "Python/main.py"
@@ -73,7 +116,11 @@
         "环状相关性图",
         "circular heatmap",
         "radial heatmap",
-        "annular heatmap."
+        "annular heatmap.",
+        "径向旋转文本 (radial text labels)",
+        "扇形网格填充 (polygon fill/wedge grid)",
+        "连续型颜色条 (continuous colorbar)",
+        "极坐标转换 (polar transformation)."
       ],
       "description": "这是一个**基于极坐标系（圆形布局）的复合聚类热图**。**主体视觉**是一个圆环状的矩阵热图，由按角度和半径划分的扇形网格组成，通过颜色映射数值。**内部视觉（圆心侧）**嵌套了一个向外辐射的极坐标层次聚类树状图（Radial Dendrogram）；**外缘或侧边**带有另一个树状图，两者的分支节点与环形热图的周向和径向严格对齐。**全局特征**：外围带有沿径向放射状旋转的文本标签，且完全隐藏了直角坐标轴，图表侧边配有一个独立的连续型颜色条（Colorbar）。",
       "code_path": "Python/main.py"
