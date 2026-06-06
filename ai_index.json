@@ -10,7 +10,17 @@
     {
       "folder": "Clustered Heatmap : Hierarchically Clustered Heatmap",
       "type": "Clustered Heatmap : Hierarchically Clustered Heatmap",
-      "keywords": [],
+      "keywords": [
+        "聚类热图",
+        "相关性热图",
+        "矩阵热图",
+        "clustered heatmap",
+        "correlation matrix heatmap.",
+        "连续型颜色条 (colorbar)",
+        "发散型配色 (diverging colormap)",
+        "白色网格分隔线 (white grid lines)",
+        "行列重排 (row/column reordering)."
+      ],
       "description": "这是一个**带边缘树状图的复合聚类热图 (Clustered Heatmap)**。**主体（中央区域）**是一个包含白色网格分隔线的矩阵热图，用于展示相关性或数值矩阵，数据根据聚类结果进行了行列重排。**边缘区域（左侧和上方）**分别嵌套了两个层次聚类树状图 (Dendrogram)，这两个树状图的分支与中央热图的行、列标签严格对齐。**全局特征**：画布最右侧带有一个独立的连续型垂直颜色条 (Colorbar)，且边缘的树状图隐藏了自身的坐标轴和边框。",
       "code_path": "Python/main.py"
     },
@@ -72,6 +82,26 @@
         "相关系数角度 (correlation angle)."
       ],
       "description": "这是一个用于多模型或多变量性能评估的 **泰勒图 (Taylor Diagram)**。该图表基于单象限的变体极坐标系构建，在一个二维画布中同时映射三个统计学指标：1. 从坐标原点出发的**径向距离（半径）\\**映射数据的 \\*\\*标准差 (Standard Deviation)\\*\\*；2. 极角的\\**余弦值**映射模型与参考数据的 **相关系数 (Correlation)**，通常在外圆弧标注刻度；3. 图中各散点到X轴上特定的“参考/观测基准点”的**欧氏几何距离**映射 **均方根误差 (RMSD)**。全局视觉包含三套交叉网格：以原点为中心的同心圆弧（标准差网格）、从原点发散的放射线（相关系数网格）、以及以参考基准点为中心的虚线同心圆弧（RMSD 网格）。",
+      "code_path": "Python/main.py"
+    },
+    {
+      "folder": "Rotated Triangular Clustered Heatmap : Diagonal Correlation Heatmap",
+      "type": "Rotated Triangular Clustered Heatmap : Diagonal Correlation Heatmap",
+      "keywords": [
+        "三角形热图",
+        "聚类相关性矩阵",
+        "金字塔热图",
+        "triangular heatmap",
+        "diagonal correlation matrix",
+        "pyramid plot.",
+        "45度旋转 (45-degree rotation)",
+        "矩阵半角/下三角 (half matrix / lower triangular)",
+        "几何坐标系转换 (geometric coordinate transformation).",
+        "菱形网格填充 (diamond grid / polygon fill)",
+        "斜向对齐树状图 (diagonal-aligned dendrogram)",
+        "斜交文本标签 (slanted text labels)."
+      ],
+      "description": "这是一个基于几何变换的 **45度旋转三角形复合聚类热图 (Rotated Triangular Clustered Heatmap)**。**主体视觉**是一个由菱形网格拼接而成的三角形热图，专门用于展示对称矩阵的半边数据以节省空间，网格单元格通过多边形填充（fill）在相对坐标系中绘制。**边缘视觉**在热图的斜侧边（如左上方）紧密嵌合了一个**层次聚类树状图 (Dendrogram)**；该树状图的线条必须经过严格的三角函数转换（乘以正余弦 45 度），以确保其分支节点与倾斜的热图网格精准对齐。图表两侧配有按特定角度倾斜（如 45 度）的变量文本标签，并在外侧悬浮一个独立的连续型颜色条 (Colorbar)。",
       "code_path": "Python/main.py"
     },
     {
