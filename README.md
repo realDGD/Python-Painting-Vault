@@ -86,6 +86,7 @@ Python_Painting_Vault/
 - **[Combined Horizontal Stacked Bar and Conditional Dumbbell Plot](./Combined%20Horizontal%20Stacked%20Bar%20and%20Conditional%20Dumbbell%20Plot)**
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
+- **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
 - **[Circular Clustered Heatmap : Radial Clustered Heatmap](./Circular%20Clustered%20Heatmap%20%3A%20Radial%20Clustered%20Heatmap)**
 
 <!-- CHART_LIST_END -->
