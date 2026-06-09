@@ -78,6 +78,7 @@ Python_Painting_Vault/
 
 <!-- CHART_LIST_START -->
 - **[Inset Composite Chart —— Line Plot with Horizontal Bar-Scatter](./Inset%20Composite%20Chart%20%E2%80%94%E2%80%94%20Line%20Plot%20with%20Horizontal%20Bar-Scatter)**
+- **[Geospatial Raster Map : Projected Map with Custom NaN Colormap](./Geospatial%20Raster%20Map%20%3A%20Projected%20Map%20with%20Custom%20NaN%20Colormap)**
 - **[Clustered Heatmap : Hierarchically Clustered Heatmap](./Clustered%20Heatmap%20%3A%20Hierarchically%20Clustered%20Heatmap)**
 - **[Combined Grouped Heatmap and Differential Bubble Chart](./Combined%20Grouped%20Heatmap%20and%20Differential%20Bubble%20Chart)**
 - **[Segmented Circular Heatmap : Grouped Annular Heatmap](./Segmented%20Circular%20Heatmap%20%3A%20Grouped%20Annular%20Heatmap)**
