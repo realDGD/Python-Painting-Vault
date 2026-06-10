@@ -167,6 +167,29 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram",
+      "type": "Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram",
+      "keywords": [
+        "桑基图",
+        "冲击图",
+        "数据流向图",
+        "sankey diagram",
+        "alluvial diagram",
+        "flow chart",
+        "energy/resource distribution.",
+        "多层级结构 (multi-layer topology)",
+        "跨层映射 (cross-layer links)",
+        "单向流动 (unidirectional flow)",
+        "反向/末端对齐 (reverse/terminal alignment).",
+        "自定义节点间隙 (custom layer separation)",
+        "节点比例映射 (block scaling)",
+        "起点颜色继承渲染 (left-rendered links)",
+        "矩形白描边修饰 (white-edged blocks)."
+      ],
+      "description": "这是一个具有高度自定义排版对齐逻辑的**多层桑基图 (Multi-layer Sankey Diagram)**。主体视觉由位于不同层级的矩形数据节点（Blocks）以及表示数值流向的半透明连线带（Links/Ribbons）组成。其核心特征在于其**空间拓扑策略**：为了应对不对等数据流入流出造成的视觉混乱，整个图形网络的节点强制采用反向（右侧）对齐逻辑；同时，每一层的垂直节点物理间隙（Separation）支持基于独立的比例数组进行个性化调整，从而使得两端能够保持平齐。所有数据流向带的颜色均强制渲染为继承其起点端（左侧）节点的颜色。主体图形边界的空白处带有独立定位的悬浮文本标签，用于标记全局输入（Input）与全局产出（OutCome）状态。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Compact Dual-Panel Grouped Bar Chart",
       "type": "Compact Dual-Panel Grouped Bar Chart",
       "keywords": [

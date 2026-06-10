@@ -86,6 +86,7 @@ Python_Painting_Vault/
 - **[Rotated Triangular Clustered Heatmap : Diagonal Correlation Heatmap](./Rotated%20Triangular%20Clustered%20Heatmap%20%3A%20Diagonal%20Correlation%20Heatmap)**
 - **[Combined Horizontal Stacked Bar and Conditional Dumbbell Plot](./Combined%20Horizontal%20Stacked%20Bar%20and%20Conditional%20Dumbbell%20Plot)**
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
+- **[Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram](./Multi-layer%20Aligned%20Sankey%20Diagram%20%3A%20Complex%20Flow%20Alluvial%20Diagram)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
 - **[Truncated Bar Chart with Jittered Scatter and Error Bars](./Truncated%20Bar%20Chart%20with%20Jittered%20Scatter%20and%20Error%20Bars)**
 - **[Sankey-Bubble Composite Plot : Flow-Scatter Aligned Chart](./Sankey-Bubble%20Composite%20Plot%20%3A%20Flow-Scatter%20Aligned%20Chart)**
