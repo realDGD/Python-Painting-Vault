@@ -190,6 +190,28 @@
       "code_path": "Python/main.py"
     },
     {
+      "folder": "Circular Dendrogram : Radial Dendrogram with Category Sectors",
+      "type": "Circular Dendrogram : Radial Dendrogram with Category Sectors",
+      "keywords": [
+        "环形树状图",
+        "极坐标聚类树",
+        "系统发育树",
+        "circular dendrogram",
+        "radial dendrogram",
+        "polar hierarchical clustering tree",
+        "phylogenetic tree.",
+        "极坐标转换 (polar transformation)",
+        "层次聚类 (hierarchical clustering)",
+        "树节点与分支 (tree nodes and branches).",
+        "扇形分类背景 (sector/wedge colored backgrounds)",
+        "内外双环高亮 (inner and outer ring highlighting)",
+        "半透明填充 (translucent face alpha)",
+        "径向旋转文本 (radial text alignment/rotation)."
+      ],
+      "description": "这是一个**带分类扇形背景的环形聚类树图 (Circular Dendrogram)**。图表的主体是一个在极坐标系下展开的层次聚类树，用于展示样本间的层级距离关系。树的边缘带有随角度径向旋转的样本名称标签。整个圆形画布根据设定的最大聚类数（如 5 类）划分为了若干个区块：内部树枝区域垫有不同颜色的半透明扇形色块作为背景；最外围环绕着一圈不透明的同色弧带，并在此区域标注了对应的类别标签（Class A, B...）。整体视觉用于直观区分不同聚类簇的层级与归属。",
+      "code_path": "Python/main.py"
+    },
+    {
       "folder": "Compact Dual-Panel Grouped Bar Chart",
       "type": "Compact Dual-Panel Grouped Bar Chart",
       "keywords": [
