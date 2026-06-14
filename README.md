@@ -93,6 +93,7 @@ Python_Painting_Vault/
 - **[Bipartite Chord Diagram : Circular Flow Chart](./Bipartite%20Chord%20Diagram%20%3A%20Circular%20Flow%20Chart)**
 - **[Multi-layer Aligned Sankey Diagram : Complex Flow Alluvial Diagram](./Multi-layer%20Aligned%20Sankey%20Diagram%20%3A%20Complex%20Flow%20Alluvial%20Diagram)**
 - **[Circular Dendrogram : Radial Dendrogram with Category Sectors](./Circular%20Dendrogram%20%3A%20Radial%20Dendrogram%20with%20Category%20Sectors)**
+- **[Grouped Correlation Heatmap with Separation Lines : Block-Diagonal Correlation Matrix](./Grouped%20Correlation%20Heatmap%20with%20Separation%20Lines%20%3A%20Block-Diagonal%20Correlation%20Matrix)**
 - **[Split Violin Plot : Asymmetric Half-Violin Plot](./Split%20Violin%20Plot%20%3A%20Asymmetric%20Half-Violin%20Plot)**
 - **[Bipartite Chord Diagram with Terminal Colored Blocks : Multi-attribute Flow Chord Chart](./Bipartite%20Chord%20Diagram%20with%20Terminal%20Colored%20Blocks%20%3A%20Multi-attribute%20Flow%20Chord%20Chart)**
 - **[Compact Dual-Panel Grouped Bar Chart](./Compact%20Dual-Panel%20Grouped%20Bar%20Chart)**
